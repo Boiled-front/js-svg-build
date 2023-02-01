@@ -1,0 +1,126 @@
+/*
+Theme Name: CustomTheme
+Theme URI: https://wordpress.org/themes/CustomTheme/
+Author: the Rost team
+Author URI: http://rost.com.ua/
+Description: CustomTheme brings your site to life with immersive featured images and subtle animations. Our default theme works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: CustomTheme
+Tags: custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@font-face {
+  font-family: "Hindi Siliguri";
+  src: url("assets/fonts/HindiSiliguri-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Hindi Siliguri";
+  src: url("assets/fonts/HindiSiliguri-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Hindi Siliguri";
+  src: url("assets/fonts/HindiSiliguri-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Hindi Siliguri";
+  src: url("assets/fonts/HindiSiliguri-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+.animals__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  max-width: 1000px;
+  width: 100%;
+  margin: 40px auto;
+}
+.animals__list > li {
+  border: 2px solid;
+  list-style-type: none;
+  padding: 10px 25px;
+  width: 100%;
+  max-width: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+.animals .img-fluid {
+  width: 100%;
+  height: auto;
+}
+.animals-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.animals .hidden {
+  display: none;
+}
+.animals .chicken-part {
+  fill: rgba(255, 255, 0, 0);
+}
+.animals .chicken-part:hover {
+  fill: rgba(255, 255, 0, 0.3137254902);
+}
+.animals .pig-part {
+  fill: rgba(255, 192, 203, 0);
+}
+.animals .pig-part:hover {
+  fill: rgba(255, 192, 203, 0.3137254902);
+}
+.animals .cow-part {
+  fill: rgba(165, 42, 42, 0);
+}
+.animals .cow-part:hover {
+  fill: rgba(165, 42, 42, 0.3137254902);
+}
+.animals-info {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 3px 4px 12px 4px rgba(0, 0, 0, 0.6);
+  margin: 20px 0;
+  color: rgb(81, 81, 81);
+}
+.animals-info h4 {
+  margin: 0;
+}
+.animals-part-name, .animals-weight, .animals-quantity {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 704px) {
+  .animals__list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .animals__list > li {
+    margin: 10px 0;
+  }
+  .animals-container {
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+}
+/*# sourceMappingURL=style.css.map */
