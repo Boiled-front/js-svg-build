@@ -87,6 +87,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .animals .pig-part:hover {
   fill: rgba(255, 192, 203, 0.3137254902);
 }
+.animals .group-test:hover path {
+  fill: rgba(255, 192, 203, 0.3137254902);
+}
 .animals .cow-part {
   fill: rgba(165, 42, 42, 0);
 }
