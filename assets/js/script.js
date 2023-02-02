@@ -29,7 +29,7 @@ binSvg('.cow-part', 'data-body-cow', 'data-weight-cow', 'data-quantity-cow')
 animalSvg()
 
 const tabHeader = document.querySelectorAll('.animals__item');
-const tabContent = document.querySelectorAll('.animals-build');
+const tabContent = document.querySelectorAll('.animals-container__item');
 const tabInfo = document.querySelector('.animals-info');
 
 for (let item of tabHeader) {
